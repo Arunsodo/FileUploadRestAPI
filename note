@@ -1,0 +1,6 @@
+GET request to /api/files/ returns a list of files
+GET request to /api/file/1 returns the file with ID 1
+POST request to /api/file/ with a file object as JSON creates a new file
+PUT request to /api/file/3 with a file object as JSON updates the file with ID 3
+DELETE request to /api/file/4 deletes the file with ID 4
+DELETE request to /api/files/ deletes all the users
